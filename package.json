@@ -1,0 +1,28 @@
+{
+  "name": "backend-dev",
+  "version": "1.0.0",
+  "description": "intro to backend",
+  "homepage": "https://github.com/spiritf0x469/backend-dev#readme",
+  "bugs": {
+    "url": "https://github.com/spiritf0x469/backend-dev/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spiritf0x469/backend-dev.git"
+  },
+  "license": "ISC",
+  "author": "sameer",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/src/index.js",
+    "dev": "nodemon backend/src/index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.2.1",
+    "nodemon": "^3.1.14"
+  }
+}
